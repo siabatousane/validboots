@@ -1,0 +1,238 @@
+nav{
+    background-image: linear-gradient(135deg,#0061f2,rgba(105,0,199,.8));  
+}
+
+.navbar{
+    display: flex;  
+}
+.navbar-brand {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+.navbar-brand:hover{
+    color: hsla(0,0%,100%,.5);
+}
+
+.nav-link:hover{
+    color: #fff;
+}
+.btn{
+    background-color: #00ba94;
+    color: #fff;
+    border-color: #00ba94;
+    font-weight: 600;
+}
+.btn:hover{
+    background-color: #067f67;
+    color: #fff;
+}
+.collapse{
+    display: flex;
+   gap: 10%;
+}
+.collapse ul li a{
+    color: hsla(0,0%,100%,.5);
+    font-weight: 500;
+    font-size: 18px;
+}
+.button .btn-link:hover{
+    color: hsla(0,0%,100%,.5);
+    border-bottom: 1px solid hsla(0,0%,100%,.5);
+}
+
+    /* PREMIER SECTION */
+
+    .premier{
+     background: linear-gradient(135deg,#0061f2,rgba(105,0,199,.8)); 
+     width: 100%;
+     height: 100vh;
+    }
+
+    .premier svg {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 3rem;
+        width: 100%;
+    }
+
+.page1 h1{
+    font-size: 3rem;
+    color: #fff;
+}
+.page1 p{
+    color: hsla(0,0%,100%,.5);
+    font-size: 1.38rem; 
+}
+.page2{
+    max-width: 100%;
+    height: auto;
+}
+.page2 img{
+    width: 100%;
+}
+.button{
+    display: flex;
+    gap: 30px;
+}
+.button .btn-link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+    /* DEUXIEME SECTION */
+    .deuxieme{
+        background-color: #eff3f9;
+       width: 100%;
+    }
+
+.demos span{
+    background-color: #bfd6f8;
+    padding: 4px;
+    border-radius: 50px;
+    color: #0061f2!important;
+}
+.deux p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: hsla(0, 0%, 2%, 0.5);
+}
+.deuxieme .card img{
+    box-shadow: 3px 3px 3px #979798;
+}
+.deuxieme .card:hover{
+    transform: translateY(-8px);
+}
+      /* TROISIEME SECTION */
+.trois{
+    background-color: #eff3f9!important;
+    width: 100%;
+}
+.trois .svg-border-rounded svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3rem;
+    width: 100%;
+}
+.trois .list-group .list-group-item{
+    background-color: #fff;
+}
+.trois .list-group .list-group-item:hover{
+    background-color: #eff3f9!important;
+}
+    /* QUATRIEME SECTION */
+    .quatre{
+        background-color: #eff3f9;
+       width: 100%;
+    }
+    .quatre .card img{
+        box-shadow: 3px 3px 3px #979798;
+    }
+    .quatre .card:hover{
+        transform: translateY(-8px);
+    }
+
+     /* CINQUIEME SECTION */
+
+.cinq{
+    background-color: #eff3f9!important; 
+}
+.five h4{
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #323f52;
+}
+.five p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #787d83;
+}
+.so h1{
+    font-size: 85px;
+    color: #c5ccd6!important;
+}
+.so h6{
+    font-size: 1.1rem;
+    color: #323f52;
+}
+.so p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #787d83; 
+}
+.cinq .btn:hover{
+    transform: translateY(-8px);
+}
+        /* FOOTER */
+.pied{
+    color: #979798!important;
+}
+
+.liste ul li{
+    list-style: none;
+}
+.liste ul li a{
+    text-decoration: none;
+    color: #979798;
+}
+.liste ul li a:hover{
+    border-bottom: 1px solid #979798;
+}
+.soupied{
+    border-top: 2px solid #979798;
+    color: #979798!important;
+}
+.soupied .para{
+    font-size: 15px;
+    font-weight: 400;
+}
+.soupied .spa a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #787d83;
+}
+.soupied .spa a:hover{
+    border-bottom: 1px solid #979798;
+}
+@media screen and (max-width:990px) {
+    .premier{
+        width: 100%;
+        height: 100vh;
+       }
+   
+    .collapse{
+        display: flex;
+        flex-direction: column;
+    }
+    .page1{
+        width: 100%;
+        text-align: center;
+    }
+    .page1 .button{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .page2 img{
+        display: none;
+    }
+    .pied{
+       text-align: center;
+    }
+    .pied .icone{
+        display: flex;
+        justify-content: center;
+    }
+    .soupied{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
